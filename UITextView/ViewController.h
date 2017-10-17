@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
-
+- (IBAction)redButton:(id)sender;
+- (IBAction)greenButton:(id)sender;
+- (IBAction)orangeButton:(id)sender;
+- (IBAction)blueButton:(id)sender;
+- (IBAction)clearButton:(id)sender;
 @end
 
